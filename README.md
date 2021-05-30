@@ -13,5 +13,5 @@ Leet (or "1337"), also known as eleet or leetspeak, is a system of modified spel
 - **Words ending in -ed**: When forming a past participle ending in -ed, the Leet user may replace the -e with an apostrophe, as was common in poetry of previous centuries, (e.g. "pwned" becomes "pwn'd"). Sometimes, the apostrophe is removed as well (e.g. "pwned" becomes "pwnd"). The word ending may also be substituted by -t (e.g. pwned becomes pwnt).
 - **Use of the -& suffix**: Words ending in -and, -anned, -ant, or a similar sound can sometimes be spelled with an ampersand (&) to express the ending sound (e.g. "This is the s&box", "I'm sorry, you've been b&", "&hill/&farm"). It is most commonly used with the word banned. An alternate form of "B&" is "B7", as the ampersand is with the "7" key on the standard US keyboard. It is often seen in the phrase "IBB7" (in before banned), which indicates that the poster believes that a previous poster will soon be banned from the site, channel, or board on which they are posting.
 
-*(Source: [Wikipedia][https://en.wikipedia.org/wiki/Leet])*
+*(Source: [Wikipedia])https://en.wikipedia.org/wiki/Leet))*
 
