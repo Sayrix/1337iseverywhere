@@ -1,4 +1,5 @@
-<head>
+<html class="dark">
+    <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>1337 Is Everywhere</title>
@@ -8,7 +9,8 @@
         <meta property="og:image" content="https://i.imgur.com/ZkNZyC6.png">
         <meta name="twitter:image" content="https://i.imgur.com/ZkNZyC6.png">
         <meta name="twitter:card" content="summary">
-</head>
+    </head>
+</html>
 
 [![1337](https://i.imgur.com/FiQiyT1.png)](https://discord.com/store)
 
