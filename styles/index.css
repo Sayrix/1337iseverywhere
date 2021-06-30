@@ -66,6 +66,8 @@ h1 {
 
 a{
     cursor: default;
+    text-decoration: none;
+    color: white;
 }
 
 .item img
