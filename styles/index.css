@@ -1,5 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
 *, ::before, ::after {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
+body {
+    background: #222;
+    height: 100vh;
+    min-height: 930px;
+    position: relative;
+}
+
+.card {
+    min-width: 850px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px 80px 120px;
+}
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 1300px;
+    margin: 70px auto 0;
+    justify-content: center;
+}
+
+.card img {
+    border-radius: 20px;
+    position: absolute;
+    width: 250px;
+    filter:
+            drop-shadow(0 0.15vw 0.30vw #fffb0e)
+            drop-shadow(0 0.15vw 0.30vw #8a8942);
+    animation: saxo-blink 2s infinite alternate;
+}
+h1:hover
+{
+    transition: blink;
+}
+h1 {
+    color: #f1f1f1;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Jomhuria', cursive;
+    margin-top: 50px;
+    transition: blink;
+}
+
+.item
+{
+    border-radius: 20px;
+    /*width: 300px;*/
+    /*height :200px;*/
+    margin: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+
+}
+
+
+a{
+    cursor: default;
+}
+
+.item img
+{
+
+    /*width: 100%;*/
+    /*height: auto;*/
+}
+
+
+@keyframes blink {
+
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+        text-shadow:
+                0 0   0.5vw #7476ff,
+                0.1vw 0 0.5vw #7476ff,
+                0.3vw 0 0.5vw #7476ff,
+
+                0 0 1.2vw #3134ff,
+                0.1vw 0 1.2vw #3134ff,
+                0.3vw 0 1.2vw #3134ff,
+
+
+                0 0 3vw #0408fb,
+                0.1vw 0 3vw #0408fb,
+                0.3vw 0 3vw #0408fb;
+
+    }
+
+    20%, 24%, 55% {
+        text-shadow: none;
+    }
+}
+
+
