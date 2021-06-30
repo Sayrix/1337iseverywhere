@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 *, ::before, ::after {
     box-sizing: border-box;
     padding: 0;
@@ -41,13 +41,13 @@ body {
 }
 h1:hover
 {
-    transition: blink;
+    animation: blink 2s infinite alternate;
 }
 h1 {
     color: #f1f1f1;
     text-align: center;
-    font-size: 80px;
-    font-family: 'Jomhuria', cursive;
+    font-size: 50px;
+    font-family: 'Poppins', cursive;
     margin-top: 50px;
     transition: blink;
 }
